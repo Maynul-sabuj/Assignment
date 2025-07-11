@@ -9,7 +9,7 @@ body{
     background-color: #F5F7FE;
 }
 
-
+/* shared style */
 .btn-primary{
     font-size: 16px;
     font-weight: bold;
@@ -19,10 +19,12 @@ body{
     border-radius: 10px;
     border: none;
     height: 48px;
- 
 }
+
 .btn-primary:hover{
-    background-color: rgb(171, 171, 137); 
+    background-color: #B3B3B3;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .text-center{
@@ -46,7 +48,7 @@ body{
 }
 
 .span-tag{
-    color: #1e201e4b;
+    color: #0601864b;
 }
 /* nav style */
 
@@ -70,11 +72,8 @@ nav ul li{
 
 nav ul a{
     text-decoration: none;
-    font-size: 20px; 
-    
+    font-size: 20px;
 }
-
-
 
 .nav-title{
     font-size: 65px;
@@ -84,6 +83,8 @@ nav ul a{
 .banner{
     margin: 158px 267px 158px 267px;
 }
+
+/* main style */
 
 main{
     max-width: 1140px;
@@ -116,12 +117,15 @@ main{
     font-size: 24px;
     opacity: 50%;
 }
+
 .action img{
     justify-content: right;
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
+
+/* joined-users style*/
 
 .joined-users{
     max-width: 1140px;
@@ -167,6 +171,10 @@ main{
     font-family: 'Inter', 'Segoe UI', sans-serif;
 }
 
+
+
+/* review  */
+
 .review-container{
     margin-top: 137px;
 }
@@ -200,6 +208,12 @@ main{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+}
+
+.persons:hover{
+    background-color: rgb(77, 96, 222);
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .reviews{
@@ -239,6 +253,7 @@ main{
   margin: 0;
 }
 
+/* focus section style */
 
 .focus{
     margin: 0 auto;
@@ -335,3 +350,54 @@ main{
     width: 100%;
     height: 62px;
 }
+
+
+/* Footer */
+footer{
+    background-color: rgb(255,255,255,1);
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.foot-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+  padding: 104px 455px;
+}
+
+footer h3{
+    cursor: pointer;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+    display: inline;
+}
+
+footer p{
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.foot-buttons ul{
+    display: flex;
+}
+
+.foot-buttons li{
+    list-style: none;
+    gap: 48px;
+}
+
+.foot-buttons ul li a {
+  margin-right: 48px;
+}
+
+.foot-buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #8987A1;
+}
+
+
